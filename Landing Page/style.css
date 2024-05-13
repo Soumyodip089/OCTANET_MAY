@@ -1,0 +1,124 @@
+body{
+  background-image: url('lumosity1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+.fi-size{
+  font-size: 22px;
+  margin-block-start: 5px;
+}
+.div-example{
+  color: white;
+  width: 980px;
+  display: inline-block;
+  }
+.div1-example{
+  color: white;
+  width: 80px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 11px;
+}
+.div1-example:hover{
+  text-decoration: underline;
+}
+.div2-example{
+  color: white;
+  width: 80px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 11px;
+}
+.div2-example:hover{
+  text-decoration: underline;
+}
+.div3-example{
+  width: 75px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  
+}
+.div4-example{
+  display: inline-block;
+  
+}
+.div5-example{
+  font-style: tahoma;
+  font-size: 60px;
+  color: white;
+  margin-left: 300px;
+}
+.div6-example{
+  font-style: tahoma;
+  font-size: 20px;
+  color: white;
+  margin-left: 325px;
+}
+.div7-example{
+  margin-left: 570px;
+}
+.div8-example{
+  font-style: sans-serif;
+  color: white;
+  font-size: 11px;
+  margin-left: 620px
+}
+.button-log{
+  font-weight: bold;
+  font-size: 11px;
+  border: 1px;
+  padding-left: 15px;
+  padding-right: 15px;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+ }
+ .button-log:hover{
+  opacity: 0.8;
+ }
+ .button-log:active{
+  opacity: 0.6;
+ }
+.button-get{
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+  background-color: rgb(241, 105, 60);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.button-get:hover{
+  opacity: 0.8;
+}
+.button-get:active{
+  opacity: 0.6;
+}
+.button-get1{
+  font-style: Arial;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(241, 105, 60);
+  border: none;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.button-get1:hover{
+  opacity: 0.8;
+}
+.button-get1:active{
+  opacity: 0.6;
+}
