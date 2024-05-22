@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('wp12600998-wuthering-waves-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
+}
+
+.container h2 img {
+    width: 25px;
+    margin: 10px;
+    padding-bottom: 2px;
+}
+
+input {
+    max-width: 470px;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 540PX;
+    background: #dbdada;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    opacity: 0.8;
+}
+
+.container h2 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.row {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 490px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.row1 {
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 490px;
+    height: 35px;
+    display: flex;
+    
+    border-radius: 20px;
+}
+
+#eventDate{
+    width: 160px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+#eventTime {
+    width: 160px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.add {
+    background-color: #fd6500;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    width: 60px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.add:hover {
+    opacity: 0.8;
+}
+
+.Prior{
+    background-color: #990000;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    width: 60px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.Prior:hover{
+    opacity: 0.8;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: ' ';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(unchecked-10-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(checkedimages-removebg-preview.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #ff0000;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover {
+    background: #cecdcd;
+}
